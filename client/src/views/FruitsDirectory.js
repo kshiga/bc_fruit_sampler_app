@@ -53,7 +53,7 @@ export default class FruitsDirectory extends React.Component {
   render() {
     return (
       <Paper style={styles.paper}>
-        <h2>This is Fruits Directory</h2>
+        <h2>Fruit Finder</h2>
         <div className="form-container">
           <form className={classes.root} noValidate autoComplete="off">
             <FruitSearchInput changeHandler={this.fetchFruits}/>
