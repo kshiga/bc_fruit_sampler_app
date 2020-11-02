@@ -40,22 +40,48 @@ const fruitsResults = [
     weight: '160 oz',
     altText: "placeholder image"
   }
-]
+];
+
+const apiCall = query => {
+  return fruitsResults.filter((fruit) => {
+    return fruit.name.includes(query);
+  });
+}
 
 export default class FruitsDirectory extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.updateQuery = this.updateQuery.bind(this);
+
+    this.state = {
+      query:"",
+      fruitsResults: []
+    }
+  }
+
+  updateQuery(query){
+    // currently a function, will be an API call
+    let results = apiCall(query);
+    this.setState({
+      query: query,
+      fruitsResults: results
+    });
+  }
+
   render() {
     return (
       <Paper style={styles.paper}>
         <h2>This is Fruits Directory</h2>
         <div className="form-container">
           <form className={classes.root} noValidate autoComplete="off">
-            <FruitSearchInput />
+            <FruitSearchInput changeHandler={this.updateQuery}/>
           </form>
         </div>
         <div className="results-container">
         <FruitsResultsGridList
-          query="[placeholder query]"
-          fruitsResults={ fruitsResults }
+          query={this.state.query}
+          fruitsResults={ this.state.fruitsResults }
         />
         </div>
       </Paper>
