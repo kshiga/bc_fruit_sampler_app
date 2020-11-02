@@ -48,13 +48,12 @@
     "webpack": "2.6.1",
     "webpack-dev-server": "2.5.0",
     "webpack-manifest-plugin": "1.1.0",
-    "whatwg-fetch": "2.0.3",
-    "@bower_components/font-roboto": "ungryfox/font-roboto#^0.0.2"
+    "whatwg-fetch": "2.0.3"
   },
   "scripts": {
     "serve": "node scripts/start.js",
     "start": "node server/bin/www",
-    "build": "./node_modules/.bin/bower install && node scripts/build.js",
+    "build": "node scripts/build.js",
     "ui-test": "node scripts/test.js --env=jsdom",
     "test": "./node_modules/.bin/mocha 'server/**/*.spec.js'",
     "postinstall": "node -e \"try { require('fs').symlinkSync(require('path').resolve('node_modules/@bower_components'), 'bower_components', 'junction') } catch (e) { }\""
