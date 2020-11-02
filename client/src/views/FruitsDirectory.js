@@ -19,10 +19,13 @@ export default class FruitsDirectory extends React.Component {
     return (
       <Paper style={styles.paper}>
         <h2>This is Fruits Directory</h2>
-        sad;fjas
-        <form className={classes.root} noValidate autoComplete="off">
-          <FruitSearchInput />
-        </form>
+        <div className="form-container">
+          <form className={classes.root} noValidate autoComplete="off">
+            <FruitSearchInput />
+          </form>
+        </div>
+        <div className="results-container">
+        </div>
       </Paper>
     );
   }
