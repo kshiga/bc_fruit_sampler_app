@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { GridList } from 'material-ui';
+import { GridList, Subheader } from 'material-ui';
+import {Row, Col} from 'react-flexbox-grid';
 import FruitsResultsGridTile from './FruitsResultsGridTile';
 
 export default class FruitsResultsGridList extends React.Component {
@@ -11,17 +12,28 @@ export default class FruitsResultsGridList extends React.Component {
   }
 
   renderFruitsResults(){
+    if(!this.props.fruitsResults.length){
+      return (<div><p>No fruits match you query: {this.props.query}</p></div>);
+    }
     return this.props.fruitsResults.map((fruit, index) => {
-      <FruitsResultsGridTile {...fruit} key={index}/>
+      return (<FruitsResultsGridTile {...fruit} key={index}/>);
     })
   }
 
   render(){
     return(
-      <GridList>
-        <Subheader>Query: {this.props.query}</Subheader>
-        { this.renderFruitsResults() }
-      </GridList>
+      <Row>
+        <Col xs={12}>
+          <Row center="xs">
+            <Col xs={6}>
+            <GridList cols={1}>
+              <Subheader>Query: {this.props.query}</Subheader>
+              { this.renderFruitsResults() }
+            </GridList>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
     );
   }
 }

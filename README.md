@@ -12,8 +12,8 @@ This application was created as an exercise to display the technical abilities o
 #### Front End Requirements
 - [x] Build a web page with an input field that a user can interact with.
 - [ ] The input field should query the API and return all matching fruit.
-- [ ] The webpage should render the fruit on the page and display a caption with the name of the fruit, and the weight.
-- [ ] The images + captions should be center aligned on the page. All images should render at the same dimensions on the page.
+- [x] The webpage should render the fruit on the page and display a caption with the name of the fruit, and the weight.
+- [x] The images + captions should be center aligned on the page. All images should render at the same dimensions on the page.
 
 ### Technical Specifications
 This application was built upon sagarpatke's [React App Boilerplate](https://github.com/sagarpatke/react-fullstack-boilerplate).  sagarpatke's boilerplate was was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
