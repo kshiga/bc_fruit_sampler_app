@@ -13,10 +13,11 @@ export default class FruitSearchInput extends React.Component {
   fruitSearch(event, value){
     if(this.timeout) clearTimeout(this.timeout);
         this.timeout = setTimeout(function(){
-                         this.setState({
-                             query: value
-                         })
-                       }.bind(this),500);
+          this.props.changeHandler(value);
+          this.setState({
+             query: value
+          });
+        }.bind(this),500);
   }
 
   render() {

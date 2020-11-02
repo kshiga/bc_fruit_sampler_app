@@ -44,7 +44,7 @@ const fruitsResults = [
 
 const apiCall = query => {
   return fruitsResults.filter((fruit) => {
-    return fruit.name.includes(query);
+    return query.length ? fruit.name.includes(query) : false;
   });
 }
 
