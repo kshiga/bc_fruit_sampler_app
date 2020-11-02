@@ -10,7 +10,7 @@ This application was created as an exercise to display the technical abilities o
 - [ ] The API should handle cases where a query does not exist.
 
 #### Front End Requirements
-- [ ] Build a web page with an input field that a user can interact with.
+- [x] Build a web page with an input field that a user can interact with.
 - [ ] The input field should query the API and return all matching fruit.
 - [ ] The webpage should render the fruit on the page and display a caption with the name of the fruit, and the weight.
 - [ ] The images + captions should be center aligned on the page. All images should render at the same dimensions on the page.
