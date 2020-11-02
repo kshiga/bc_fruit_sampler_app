@@ -1,11 +1,117 @@
 {
-  "cartoons": [{
+  "fruits":[{
     "id": 1,
-    "name": "Mickey Mouse",
-    "creator": "Walt Disney"
-  }, {
+    "name": "Tomato",
+    "weight": "10 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/tomato_1f345.png",
+    "altText":"Tomato emoji from Apple iOS 13.3"
+  },{
     "id": 2,
-    "name": "Tom and Jerry",
-    "creator": "Hannah and Barbera"
+    "name": "Apple",
+    "weight": "13 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/red-apple_1f34e.png",
+    "altText":"Red Apple emoji from Apple iOS 13.3"
+  },{
+    "id": 3,
+    "name": "Grapes",
+    "weight": "2 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/grapes_1f347.png",
+    "altText":"Grapes emoji from Apple iOS 13.3"
+  },{
+    "id": 4,
+    "name": "Melon",
+    "weight": "72 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/melon_1f348.png",
+    "altText":"Melon emoji from Apple iOS 13.3"
+  },{
+    "id": 5,
+    "name": "Watermelon",
+    "weight": "128 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/watermelon_1f349.png",
+    "altText":"Watermelon emoji from Apple iOS 13.3"
+  },{
+    "id": 6,
+    "name": "Lemon",
+    "weight": "9 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/lemon_1f34b.png",
+    "altText":"Lemon emoji from Apple iOS 13.3"
+  },{
+    "id": 7,
+    "name": "Banana",
+    "weight": "15 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/banana_1f34c.png",
+    "altText":"Banana emoji from Apple iOS 13.3"
+  },{
+    "id": 8,
+    "name": "Pineapple",
+    "weight": "37 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/pineapple_1f34d.png",
+    "altText":"Pineapple emoji from Apple iOS 13.3"
+  },{
+    "id": 9,
+    "name": "Mango",
+    "weight": "11 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/mango_1f96d.png",
+    "altText":"Mango emoji from Apple iOS 13.3"
+  },{
+    "id": 10,
+    "name": "Pear",
+    "weight": "10 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/pear_1f350.png",
+    "altText":"Pear emoji from Apple iOS 13.3"
+  },{
+    "id": 11,
+    "name": "Peach",
+    "weight": "9 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/peach_1f351.png",
+    "altText":"Peach emoji from Apple iOS 13.3"
+  },{
+    "id": 12,
+    "name": "Cherry",
+    "weight": "2 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/cherries_1f352.png",
+    "altText":"Cherries emoji from Apple iOS 13.3"
+  },{
+    "id": 13,
+    "name": "Strawberry",
+    "weight": "5 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/strawberry_1f353.png",
+    "altText":"Strawberry emoji from Apple iOS 13.3"
+  },{
+    "id": 14,
+    "name": "Kiwi",
+    "weight": "5 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/kiwifruit_1f95d.png",
+    "altText":"Kiwi emoji from Apple iOS 13.3"
+  },{
+    "id": 15,
+    "name": "Avocado",
+    "weight": "12 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/avocado_1f951.png",
+    "altText":"Avocado emoji from Apple iOS 13.3"
+  },{
+    "id": 16,
+    "name": "Eggplant",
+    "weight": "9 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/aubergine_1f346.png",
+    "altText":"Eggplant emoji from Apple iOS 13.3"
+  },{
+    "id": 17,
+    "name": "Pepper",
+    "weight": "3 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/hot-pepper_1f336.png",
+    "altText":"Hot Pepper emoji from Apple iOS 13.3"
+  },{
+    "id": 18,
+    "name": "Cucumber",
+    "weight": "10 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/cucumber_1f952.png",
+    "altText":"Cucumber emoji from Apple iOS 13.3"
+  },{
+    "id": 19,
+    "name": "Coconut",
+    "weight": "23 oz",
+    "img":"https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/coconut_1f965.png",
+    "altText":"Coconut emoji from Apple iOS 13.3"
   }]
 }
