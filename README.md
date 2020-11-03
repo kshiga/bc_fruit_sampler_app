@@ -4,14 +4,14 @@ This application was created as an exercise to display the technical abilities o
 
 ### Delivery Requirements
 #### Backend Requirements
-- [ ]  Build a Node js server that creates an API that returns information on various Fruit.
-- [ ] Fruit have the following properties: Name, weight, image.
-- [ ] The API should allow consumers to query by name, but not weight.
-- [ ] The API should handle cases where a query does not exist.
+- [x]  Build a Node js server that creates an API that returns information on various Fruit.
+- [x] Fruit have the following properties: Name, weight, image.
+- [x] The API should allow consumers to query by name, but not weight.
+- [x] The API should handle cases where a query does not exist.
 
 #### Front End Requirements
 - [x] Build a web page with an input field that a user can interact with.
-- [ ] The input field should query the API and return all matching fruit.
+- [x] The input field should query the API and return all matching fruit.
 - [x] The webpage should render the fruit on the page and display a caption with the name of the fruit, and the weight.
 - [x] The images + captions should be center aligned on the page. All images should render at the same dimensions on the page.
 

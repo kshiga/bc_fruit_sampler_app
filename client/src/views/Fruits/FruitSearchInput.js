@@ -25,6 +25,7 @@ export default class FruitSearchInput extends React.Component {
       <TextField
         id="fruit-query"
         name="fruit-query"
+        hintText="Search Fruits"
         onChange={this.fruitSearch}
       />
     );

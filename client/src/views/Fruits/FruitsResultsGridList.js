@@ -13,7 +13,7 @@ export default class FruitsResultsGridList extends React.Component {
 
   renderFruitsResults(){
     if(!this.props.fruitsResults.length){
-      return (<div><p>No fruits match you query: {this.props.query}</p></div>);
+      return (<div><p>No fruits match you query {this.props.query}</p></div>);
     }
     return this.props.fruitsResults.map((fruit, index) => {
       return (<FruitsResultsGridTile {...fruit} key={index}/>);
@@ -25,9 +25,8 @@ export default class FruitsResultsGridList extends React.Component {
       <Row>
         <Col xs={12}>
           <Row center="xs">
-            <Col xs={6}>
-            <GridList cols={1}>
-              <Subheader>Query: {this.props.query}</Subheader>
+            <Col xs={6} md={3} >
+            <GridList cols={1} celHeight="auto" >
               { this.renderFruitsResults() }
             </GridList>
             </Col>
