@@ -29,9 +29,7 @@ The boilerplate includes:
 
 After cloning,
 ```
-$ cd react-fluxbox-boilerplate
-$ sudo npm install bower yarn -g
-$ bower install
+$ cd bc_fruit_sampler_app
 $ yarn
 ```
 
@@ -42,8 +40,3 @@ $ yarn
 ```npm run build``` - Builds server
 
 ```npm start --production``` - Starts server in production mode. Always run build before starting the server in production
-
-
-### Running a Server
-
-### Testing
